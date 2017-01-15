@@ -1,8 +1,0 @@
-C:\program_data\programming\csharp\AdaptiveCode\Chapter2\SimpleDependency\bin\Debug\SimpleDependency.exe.config
-C:\program_data\programming\csharp\AdaptiveCode\Chapter2\SimpleDependency\bin\Debug\SimpleDependency.exe
-C:\program_data\programming\csharp\AdaptiveCode\Chapter2\SimpleDependency\bin\Debug\SimpleDependency.pdb
-C:\program_data\programming\csharp\AdaptiveCode\Chapter2\SimpleDependency\bin\Debug\MessagePrinter.dll
-C:\program_data\programming\csharp\AdaptiveCode\Chapter2\SimpleDependency\bin\Debug\MessagePrinter.pdb
-C:\program_data\programming\csharp\AdaptiveCode\Chapter2\SimpleDependency\obj\Debug\SimpleDependency.csprojResolveAssemblyReference.cache
-C:\program_data\programming\csharp\AdaptiveCode\Chapter2\SimpleDependency\obj\Debug\SimpleDependency.exe
-C:\program_data\programming\csharp\AdaptiveCode\Chapter2\SimpleDependency\obj\Debug\SimpleDependency.pdb
