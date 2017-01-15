@@ -1,1 +1,0 @@
-C:\program_data\programming\csharp\AdaptiveCode\Chapter3\ch3-interface-definition\bin\Debug\ch3-interface-definition.exe.config

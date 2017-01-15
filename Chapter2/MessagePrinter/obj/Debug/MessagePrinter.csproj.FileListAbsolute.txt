@@ -1,5 +1,0 @@
-C:\program_data\programming\csharp\AdaptiveCode\Chapter2\MessagePrinter\bin\Debug\MessagePrinter.dll
-C:\program_data\programming\csharp\AdaptiveCode\Chapter2\MessagePrinter\bin\Debug\MessagePrinter.pdb
-C:\program_data\programming\csharp\AdaptiveCode\Chapter2\MessagePrinter\obj\Debug\MessagePrinter.csprojResolveAssemblyReference.cache
-C:\program_data\programming\csharp\AdaptiveCode\Chapter2\MessagePrinter\obj\Debug\MessagePrinter.dll
-C:\program_data\programming\csharp\AdaptiveCode\Chapter2\MessagePrinter\obj\Debug\MessagePrinter.pdb
