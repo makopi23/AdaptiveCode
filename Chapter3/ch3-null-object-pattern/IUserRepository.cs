@@ -6,14 +6,8 @@ using System.Threading.Tasks;
 
 namespace ch3_null_object_pattern
 {
-    public interface IUser
+    interface IUserRepository
     {
-        void IncrementSessionTicket();
-        /*
-        bool IsNull
-        {
-            get;
-        }
-        */
+        IUser GetByID(Guid userID);
     }
 }

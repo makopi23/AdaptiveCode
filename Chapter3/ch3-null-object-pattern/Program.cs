@@ -13,7 +13,10 @@ namespace ch3_null_object_pattern
         static void Main(string[] args)
         {
             var user = userRepository.GetByID(Guid.NewGuid());
-            //user.Inc
+            if(user != null)
+            {
+                user.IncrementSessionTicket();
+            }
         }
     }
 }

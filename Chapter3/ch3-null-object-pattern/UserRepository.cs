@@ -6,11 +6,6 @@ using System.Threading.Tasks;
 
 namespace ch3_null_object_pattern
 {
-    interface IUserRepository
-    {
-        IUser GetByID(Guid userID);
-    }
-
     public class UserRepository : IUserRepository
     {
         //private string userId;

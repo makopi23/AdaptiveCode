@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ch3_null_object_pattern
 {
-    class User
+    public class User : IUser
     {
         private Guid guid;
         private string password;
@@ -35,6 +35,15 @@ namespace ch3_null_object_pattern
         public User(Guid guid)
         {
             this.guid = guid;
+            sessionExpiry = DateTime.Now;
+            IncrementSessionTicket();
         }
+        public void IncrementSessionTicket()
+        {
+            sessionExpiry.AddMinutes(30);
+        }
+
+        private DateTime sessionExpiry;
+
     }
 }

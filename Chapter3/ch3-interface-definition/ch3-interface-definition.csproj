@@ -42,8 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClashingMethodSignatures.cs" />
+    <Compile Include="ClassWithMethodSignatureClash.cs" />
+    <Compile Include="ExplicitInterfaceClient.cs" />
+    <Compile Include="ExplicitInterfaceImplementation.cs" />
+    <Compile Include="IInterfaceOne.cs" />
+    <Compile Include="IInterfaceTwo.cs" />
+    <Compile Include="ImplementationMultipleInterfaces.cs" />
+    <Compile Include="ISimpleInterface.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleInterfaceImplementation.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
