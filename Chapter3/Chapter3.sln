@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch3-adapter-pattern", "ch3-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch3-object-adapter-pattern", "ch3-object-adapter-pattern\ch3-object-adapter-pattern.csproj", "{7F6F58C3-3070-4BB5-A7DA-870305F7C92C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ch3-strategy-pattern", "ch3-strategy-pattern\ch3-strategy-pattern.csproj", "{3A6ECB87-AEB0-4BF5-A48F-6E604F171F99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7F6F58C3-3070-4BB5-A7DA-870305F7C92C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F6F58C3-3070-4BB5-A7DA-870305F7C92C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F6F58C3-3070-4BB5-A7DA-870305F7C92C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A6ECB87-AEB0-4BF5-A48F-6E604F171F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A6ECB87-AEB0-4BF5-A48F-6E604F171F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A6ECB87-AEB0-4BF5-A48F-6E604F171F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6ECB87-AEB0-4BF5-A48F-6E604F171F99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
