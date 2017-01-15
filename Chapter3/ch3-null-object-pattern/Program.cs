@@ -12,11 +12,27 @@ namespace ch3_null_object_pattern
 
         static void Main(string[] args)
         {
-            var user = userRepository.GetByID(Guid.NewGuid());
+            Console.WriteLine("★START★");
+            //var user = userRepository.GetByID(Guid.NewGuid());
+            var user = userRepository.GetByID("abc");
+            user.IncrementSessionTicket();
+            /*
             if(user != null)
             {
                 user.IncrementSessionTicket();
             }
+            */
+            string userName;
+            if (!user.IsNull)
+            {
+                userName = user.Name;
+            }
+            else
+            {
+                userName = "unknown";
+            }
+            Console.WriteLine("The user's name is {0}", userName);
+            Console.ReadKey();
         }
     }
 }

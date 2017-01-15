@@ -12,5 +12,22 @@ namespace ch3_null_object_pattern
         {
             // 何もしない
         }
+
+        public bool IsNull
+        {
+            get
+            {
+                return true;
+            }
+        }
+
+        public string Name
+        {
+            get
+            {
+                return "unknown";
+            }
+        }
+        
     }
 }

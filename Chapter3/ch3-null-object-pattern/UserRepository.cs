@@ -32,5 +32,12 @@ namespace ch3_null_object_pattern
             }
             return userFound;
         }
+
+        public IUser GetByID(string name)
+        {
+            User user = new User();
+            user.Name = name;
+            return user;
+        }
     }
 }

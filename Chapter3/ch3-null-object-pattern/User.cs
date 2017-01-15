@@ -10,11 +10,26 @@ namespace ch3_null_object_pattern
     {
         private Guid guid;
         private string password;
+        private string name;
+        
 
         public User()
         {
             // Todo
         }
+
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                this.name = value;
+            }
+        }
+
 
         public Guid ID
         {
@@ -44,6 +59,14 @@ namespace ch3_null_object_pattern
         }
 
         private DateTime sessionExpiry;
+
+        public bool IsNull
+        {
+            get
+            {
+                return false;
+            }
+        }
 
     }
 }

@@ -9,11 +9,16 @@ namespace ch3_null_object_pattern
     public interface IUser
     {
         void IncrementSessionTicket();
-        /*
+
         bool IsNull
         {
             get;
         }
-        */
+
+        string Name
+        {
+            get;
+        }
+
     }
 }
